@@ -1,0 +1,14 @@
+#include<stdc/bits++.h>
+
+using namespace std;
+
+typedef struct tagSinhVien{
+	char MSSV[10];
+	char HoTen[30];
+	float Diem;
+	} SinhVien;
+
+typedef struct tagNode {
+	SinhVien Data;
+	struct tagNode *pNext;
+	} Node, *PNODE;
